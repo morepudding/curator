@@ -1,0 +1,53 @@
+# Modèles IA (trop volumineux pour GitHub)
+curator-backend/models/*.gguf
+curator-backend/models/*.bin
+curator-backend/models/*.safetensors
+curator-backend/models/*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs générés par le curator
+curator-output-*.json
+assets/heroes/*/
+assets/locations/*/
+assets/buildings/*/
+
+# Environnements et configs locales
+.env
+.env.local
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp
